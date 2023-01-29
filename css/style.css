@@ -8,7 +8,7 @@
 }
 
 body{
-    background-image: url(/bg/main-screen__bgc.png);
+    background-image: url(../bg/main-screen__bgc.png);
     background-repeat: no-repeat;
     color: white;
 }
@@ -212,7 +212,7 @@ width: 1920px;
 height: 6599px;
 left: 0px;
 top: 960px;
-    background: url(/bg/bgc.png);
+    background: url(../bg/bgc.png);
 }
 
 .sub{
