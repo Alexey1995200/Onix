@@ -1,26 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
 *{
 	padding: 0;
+    border: 0;
 	margin: 0;
-	border: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-image: url(/bg/main-screen__bgc.png);
+    background-repeat: no-repeat;
+    color: white;
 }
 
 header{
     text-align: center;
     padding: 2%;
-    background-color: darkgray;
+    background-color: transparent;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.logo{
+    width: 48px;
+    height: 48px;
+}
+
+.header__nav{
+    margin: 0 auto;
+}
+
+.header__nav__list{
+    display: flex;
+    list-style: none;
+    gap: 56px;
+}
+
+.header__link
+
+.header__button
+
+.header__button_login{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px;
+    gap: 10px;
+    
+    position: absolute;
+    width: 183px;
+    height: 44px;
+    left: 1657px;
+    top: 38px;
+    
+    /* grad2 */
+    background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+    border-radius: 50px;
 }
 
 .title{
-    font-size: 36pt ;
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
-    margin: 0.25%;
+    position: absolute;
+    width: 920px;
+    height: 180px;
+    left: 312px;
+    top: 270px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 140%;
 }
 
-.desc{
-    margin-left: 5%;
-    margin-right: 5%
+.countdown{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
+.countdown__days{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 20px 30px;
+
+position: absolute;
+width: 102px;
+height: 112px;
+left: 312px;
+top: 500px;
+
+background: #121212;
+}
+
+.countdown__hours{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 20px 30px;
+
+position: absolute;
+width: 107px;
+height: 112px;
+left: 444px;
+top: 500px;
+
+background: #121212;
+}
+
+.countdown__min{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 20px 30px;
+
+position: absolute;
+width: 108px;
+height: 112px;
+left: 581px;
+top: 500px;
+
+background: #121212;
+}
+
+.countdown__sec{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 20px 30px;
+
+position: absolute;
+width: 115px;
+height: 112px;
+left: 719px;
+top: 500px;
+
+background: #121212;
+}
+
+.buy{
+    display: flex;
+    position: absolute;
+    width: 1920px;
+    height: 130px;
+    left: 0px;
+    top: 830px;
+    background-color: #121212;
+}
+
+.buy__btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px;
+    gap: 10px;
+
+    position: absolute;
+    width: 169px;
+    height: 44px;
+    left: 312px;
+    top: 43px;
+    
+
+    background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+    border-radius: 50px;
+}
+
+.users_count{
+    position: absolute;
+width: 1920px;
+height: 130px;
+left: 0px;
+top: 830px;
+
+display: flex;
+}
+
+.users_count total{
+    position: absolute;
+width: 122px;
+height: 24px;
+left: 562px;
+top: 866px;
+
+display: flex;
+}
+
+.users_count total_num{
+    position: absolute;
+width: 28px;
+height: 24px;
+left: 785px;
+top: 866px;
+}
+
+
+
+main{
+    position: absolute;
+width: 1920px;
+height: 6599px;
+left: 0px;
+top: 960px;
+    background: url(/bg/bgc.png);
+}
+
+.sub{
+    display: flex;
+    position: relative;
+    position: absolute;
+    width: 547px;
+    height: 419px;
+    left: 686px;
+    top: 6150px;
+    flex-direction: column;
+}
+
+.sub__text h1{
+    font-size: 48px;
+}
+.sub__text p{
+    opacity: 0.5;
+    font-size: 16px;
+}
+
+.sub_form{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.sub_form__mail{
+    background: #FFFFFF;
+    opacity: 0.25;
+    border-radius: 50px;
+    display: block;
+    height: 44px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sub_form__btn{
+    display: flex;
+    height: 44px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+    gap: 10px;
+
+    background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+    border-radius: 50px;
+}
+
+
 
 footer{
     position: fixed; 
