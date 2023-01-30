@@ -147,6 +147,7 @@ top: 500px;
 background: #121212;
 }
 
+
 .buy{
     display: flex;
     position: absolute;
@@ -187,13 +188,12 @@ display: flex;
 }
 
 .users_count total{
-    position: absolute;
+    position: fixed;
 width: 122px;
 height: 24px;
 left: 562px;
 top: 866px;
 
-display: flex;
 }
 
 .users_count total_num{
@@ -204,8 +204,6 @@ left: 785px;
 top: 866px;
 }
 
-
-
 main{
     position: absolute;
 width: 1920px;
@@ -214,6 +212,26 @@ left: 0px;
 top: 960px;
     background: url(../bg/bgc.png);
 }
+
+.block0{
+    position: relative;
+    display: flex;
+    height: 300px;
+}
+
+.block1{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 542px;
+    width: 1300px;
+    align-items: center;
+    gap: 140px;
+    margin: auto;
+}
+
+
 
 .sub{
     display: flex;
