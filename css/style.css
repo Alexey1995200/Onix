@@ -213,35 +213,56 @@ top: 960px;
     background: url(../bg/bgc.png);
 }
 
-.block0{
-    position: relative;
-    display: flex;
-    height: 300px;
-}
 
 .block1{
     position: relative;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    height: 542px;
+    height: 600px;
     width: 1300px;
     align-items: center;
     gap: 140px;
-    margin: auto;
+    margin: 0 auto;
 }
 
+.block2{
+    display: flex;
+    justify-content: space-between;
+    width: 1315px;
+    margin: auto;
+    flex-direction: column;
+}
 
+.fast_start{
+    display: flex;
+    flex-direction: row;
+}
+
+.block3{
+    display: flex;
+    width: 1296px;
+    height: 549px;
+    text-align: center;
+    margin: auto;
+    align-items: center;
+    flex-direction: column;
+}
+
+.block3__table{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    flex-direction: row;
+}
 
 .sub{
     display: flex;
     position: relative;
-    position: absolute;
     width: 547px;
     height: 419px;
-    left: 686px;
-    top: 6150px;
     flex-direction: column;
+    margin: auto;
 }
 
 .sub__text h1{
